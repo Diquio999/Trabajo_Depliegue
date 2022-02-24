@@ -1,0 +1,39 @@
+img{
+    margin: 5px;
+    
+}
+h1 :hover{
+    animation-duration: 3s;
+    animation-name: color;
+    
+}
+    @keyframes color {
+        from{
+            color:red;
+        }
+        to{
+            color:green;
+        }
+    }
+
+
+
+h1{
+    text-align: center;
+    border: solid 1px;
+    animation-duration: 5s;
+    animation-name: crecer;
+}
+    @keyframes crecer {
+        from{
+            font-size: 40px;
+        }
+        50%{
+            font-size: 50px;
+        }
+        to{
+            font-size: 40px;
+        }
+    }
+    
+    
